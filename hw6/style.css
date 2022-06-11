@@ -1,0 +1,67 @@
+.section {
+    max-width: 768px;
+    margin:5px auto;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(199, 183, 183);
+    border-radius:10px;
+    border: 2px solid black;
+}
+
+.Delete_All, .Delete_Last, .Show_All, .Add, .X_button, .checkbox, .Show_Completed {
+    background-color:aqua;
+    border: 2px solid black;
+    border-radius:10px;
+}
+
+.Show_All, .Show_Completed {
+    width: 200px;
+}
+
+.Delete_All, .Delete_Last {
+    width: 150px;
+}
+.Add {
+    width: 100px;
+}
+
+.Enter_todo, .search {
+    border: 2px solid black;
+    border-radius:10px;
+}
+
+.todo_section{
+    margin: 10px;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+
+}
+
+.search_section {
+    margin: 10px;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.todo_text_section {
+    margin:0 250px;
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    flex-direction: column;
+}
+
+.first_text_section, .second_text_section {
+    background-color:bisque;
+    border-radius:10px;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+
+
+.X, .date {
+    display: flex;
+    justify-content:flex-end;
+}
